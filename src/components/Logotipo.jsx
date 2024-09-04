@@ -1,13 +1,13 @@
 import React from 'react'
 import './Logotipo.css'
-import logoImage from '../img/logo-mountain-shadow-white.png'
-import textImage from '../img/text-montanha-white.png'
+import TextImage from './img/text-montanha-white.png'
+import Logo from './img/logo-mountain-shadow-white.png'
 
 function Logotipo() {
   return (
     <div className="logo">
-        <img src={logoImage} alt="Logo MONTANHA TOP TEAM" id='img-logo'/>
-        <img src={textImage} alt="texto Montanha da logo" id='text-logo' />
+        <img id='img-logo' src={Logo} alt="Logo MONTANHA TOP TEAM" />
+        <img id='text-logo' src={TextImage} alt="texto Montanha da logo" />
     </div>
   )
 }

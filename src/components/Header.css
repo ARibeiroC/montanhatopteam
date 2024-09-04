@@ -2,7 +2,7 @@ header {
     display: flex;
     flex-direction: column;
     height: auto;
-    background-color: rgba(10,10,10,.8);
+    z-index: 1;
 }
 
 header nav {

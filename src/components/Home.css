@@ -1,11 +1,12 @@
 #home {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 
   gap: 1rem;
   color: white;
+  height: 100%;
   width: 100%;
+  z-index: 1;
 }
 
 .text {
@@ -18,7 +19,6 @@
 
   padding: 2rem .4rem;
   z-index: 3;
-  background-color: rgba(10,10,10,.8);
 }
 
 .text h2 {
@@ -56,8 +56,4 @@
 .text button:active {
   box-shadow: 2px 2px 8px 0px black;
   transform: translateY(1px);
-}
-
-.banner {
-  display: none;
 }
