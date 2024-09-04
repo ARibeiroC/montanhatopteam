@@ -21,7 +21,7 @@
 
 @media screen and (max-width: 26.5625rem) {
   .app .filter {
-    width: 100%;
+    width: 100vh;
   }
 }
 
