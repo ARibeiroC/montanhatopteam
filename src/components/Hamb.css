@@ -1,0 +1,46 @@
+#hamb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    z-index: 3;
+    color: white;
+    top: 20px;
+    right: 0px;
+  }
+  #hamb #menu-toggle {
+    pointer-events: none;
+    visibility: hidden;
+    width: 50px;
+    height: 30px;
+  }
+
+  #hamb .menu-button-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: initial;
+    height: 100%;
+    width: auto;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #hamb .menu-button-container .menu-button-middle, #hamb .menu-button-container .menu-button-top, #hamb .menu-button-container .menu-button-bottom {
+    background-color: white;
+    position: absolute;
+    right: 10px;
+    height: 5px;
+    width: 25px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+    pointer-events: none;
+  }
+
+  #hamb .menu-button-container .menu-button-top {
+    margin-top: -15px;
+  }
+  #hamb .menu-button-container .menu-button-bottom {
+    margin-top: 16px;
+  }

@@ -1,0 +1,73 @@
+.belt-info {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    align-items: center;
+
+    padding: .5rem 1rem;
+    border-bottom: 1px solid white;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+
+}
+
+.belt-info .socials {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.belt-info a {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    color: white;
+    text-decoration: none;
+}
+
+.belt-info a span {
+    display: flex;
+}
+
+.btn-controls {
+    display: flex;
+    gap: 1rem;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 35px;
+    font-weight: bold;
+    width: 100px;
+    border: none;
+    border-radius: 6px;
+}
+
+.belt-info #btn-sign-in{
+    background-color: rgb(200, 0, 0);  
+    color: #f0f0f0;  
+}
+
+.belt-info #btn-sign-up{
+    background-color: transparent;
+    border: 1px solid red;
+    color: #f0f0f0;
+    transition: .4s;
+}
+
+.belt-info #btn-sign-up:hover, .belt-info #btn-sign-in:hover{
+    background-color: red;
+}
+
+.belt-info .buttons:active {
+    box-shadow: 2px 2px 4px 0px #000 inset;
+    transform: translateY(1px);
+}

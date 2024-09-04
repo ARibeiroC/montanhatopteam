@@ -1,0 +1,13 @@
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  flex: 1;
+  min-height: 100vh;
+  background-image: url('/background-site-modelo1-gray-scale.png');
+  background-color: rgb(0,0,0);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+

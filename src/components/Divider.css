@@ -1,0 +1,27 @@
+@media (max-width: 360px) {
+    #divider {
+        position: relative;
+        top: -32px;
+        background-color: transparent;
+        left: .2rem;
+        height: 0;
+    }
+    .line {
+        height: 15px;
+        background-color: #fafafa;
+        margin-bottom: .5rem;
+        /* border-top-right-radius: 6px; */
+        border-bottom-right-radius: 25px;
+        box-shadow: 2px 2px 4px 0 rgba(255, 0, 0, 0.322);
+    }
+    
+    .long {
+        width: 250px !important;
+    }
+    .middle {
+        width: 150px !important;
+    }
+    .small {
+        width: 50px !important;
+    }
+}

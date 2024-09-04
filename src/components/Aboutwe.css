@@ -1,0 +1,42 @@
+@media (max-width: 360px) {
+  #about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #010101;
+  }
+  
+  #about h2 {
+    font-size: 5rem;
+    margin: 10% 0;
+  }
+  
+  #about h2 #brazilian-text {
+    color: red;
+    text-shadow: 3px 3px 6px white;
+  }
+  
+  #about h2 #jiujitsu-text {
+    color: white;
+    text-shadow: 3px 3px 6px red;
+  }
+  
+  #about button {
+    height: 60px;
+    width: 200px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 6px;
+  }
+  
+  #home button:active {
+    box-shadow: 2px 2px 4px 0px #000 inset;
+    transform: translateY(1px);
+  }
+}

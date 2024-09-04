@@ -1,0 +1,11 @@
+.logo {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    height: 100%;
+    flex: 1;
+}
+
+.logo img {
+    max-width: 100%;
+}

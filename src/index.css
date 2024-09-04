@@ -1,0 +1,22 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-color: #050505;
+  min-height: 100vh;
+  color: #f0f0f0;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+}
+
+
