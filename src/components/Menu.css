@@ -1,4 +1,10 @@
-.my-menu {
+.menu {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.itens-menu {
     display: flex;
     justify-content: end;
     gap: 2rem;
@@ -7,7 +13,7 @@
     width: 100%;
 }
 
-.my-menu a {
+.menu a {
     display: flex;
     align-items: center;
     color: white;
@@ -20,13 +26,22 @@
     font-size: .9rem;
 }
 
-.my-menu a:hover {
+.menu a:hover {
     border-bottom: 2px solid white;
     transform: translateY(2px);
 }
 
-.my-menu-active {
+.active {
     border-bottom: 2px solid white !important;
     transform: translateY(2px);
 
+}
+
+@media screen and (max-width: 26.5625rem){
+    .menu {
+        flex: 3;
+    }
+    .menu .itens-menu{
+        display: none;
+    }
 }

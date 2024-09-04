@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: Helvetica, sans-serif;
 }
+
 body {
   display: flex;
   flex-direction: column;
@@ -11,4 +12,7 @@ body {
   background-color: #050505;
   min-height: 100vh;
   color: #f0f0f0;
+}
+
+@media screen and (max-width: 26.5625rem){
 }

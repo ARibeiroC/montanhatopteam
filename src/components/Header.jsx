@@ -1,8 +1,7 @@
 import React from 'react'
 import './Header.css'
 import {BeltInfo} from './BeltInfo'
-import {Hamb} from './Hamb'
-import { MyMenu } from './MyMenu'
+import { Menu } from './Menu'
 import {Logotipo} from './Logotipo'
 
 function Header() {
@@ -11,7 +10,7 @@ function Header() {
       <BeltInfo />
       <nav>
         <Logotipo />
-        <MyMenu />
+        <Menu />
       </nav>
     </header>
   )

@@ -10,3 +10,9 @@ header nav {
     align-items: center;
     padding: .5rem;
 }
+
+@media screen and (max-width: 26.5625rem) {
+    .header {
+        /* overflow-x: hidden; */
+    }
+}

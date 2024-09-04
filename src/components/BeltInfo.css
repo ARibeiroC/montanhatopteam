@@ -71,3 +71,22 @@
     box-shadow: 2px 2px 4px 0px #000 inset;
     transform: translateY(1px);
 }
+
+
+@media screen and (max-width: 26.5625rem) {
+    .contacts {
+        justify-content: end;
+    }
+
+    .contacts a, .contacts p {
+        display: none;
+    }
+
+    .contacts .socials a{
+        display: flex;
+    }
+
+    .btn-controls {
+        display: none;
+    }
+}
