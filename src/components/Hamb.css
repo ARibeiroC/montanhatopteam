@@ -1,18 +1,13 @@
 #hamb {
-    display: none;
-    justify-content: center;
-    align-items: center;
-    z-index: 3;
-    color: white;
-    top: 20px;
-    right: 0px;
+  display: flex;
+  padding: 0.6rem;
+  display: none;
+  z-index: 3;
 }
 
 #hamb #menu-toggle {
   pointer-events: none;
   visibility: hidden;
-  width: 50px;
-  height: 30px;
 }
 
 #hamb .menu-button-container {
@@ -20,19 +15,19 @@
   flex-direction: column;
   flex-wrap: initial;
   height: 100%;
-  width: auto;
+  width: 30px;
   cursor: pointer;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 1rem;
 }
 
 #hamb .menu-button-container .menu-button-middle, #hamb .menu-button-container .menu-button-top, #hamb .menu-button-container .menu-button-bottom {
-  background-color: white;
+  background-color: #f0f0f0;
   position: absolute;
-  right: 10px;
-  height: 5px;
-  width: 25px;
+  height: 4px;
+  width: 30px;
   transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
   border-radius: 2px;
   pointer-events: none;
@@ -46,8 +41,25 @@
   margin-top: 16px;
 }
 
+.button-top{
+  transform: rotate(405px) !important;
+}
+.button-middle{
+    opacity: 0;
+}
+.button-bottom{
+    transform: rotate(-15deg);
+}
+
 @media screen and (max-width: 26.5625rem) {
   #hamb {
     display: block;
+    height: auto !important;
+  }
+
+  #hamb .menu-button-container{
+    width: auto;
+    height: auto;
+    padding: .4rem;
   }
 }

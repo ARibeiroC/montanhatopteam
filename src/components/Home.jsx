@@ -1,7 +1,18 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Home.css'
 
 function Home () {
+  const [height, setheight] = useState(0)
+  const myheader = document.querySelector('header')
+  const home = document.querySelector('#home')
+  
+  useEffect(()=>{
+    if (myheader){
+      setheight(myheader.clientHeight)
+      home.style.height = `calc(100vh - ${height}px)`
+    }
+  })
+
   return (
       <section id='home'>
         <div className="text">

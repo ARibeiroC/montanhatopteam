@@ -14,5 +14,10 @@
 @media screen and (max-width: 26.5625rem) {
     .logo{
         gap: .4rem;
+        padding: .4rem;
+    }
+    
+    .logo img {
+        width: 25%;
     }
 }

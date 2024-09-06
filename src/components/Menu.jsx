@@ -12,6 +12,7 @@ function Menu() {
           <a href="">HORÁRIOS</a>
           <a href="">EQUIPE</a>
           <a href="">EVENTOS</a>
+          <a href="">FAQ'S</a>
         </div>
         <Hamb />
     </div>

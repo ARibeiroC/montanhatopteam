@@ -1,13 +1,13 @@
 import './App.css'
+import { MainContent } from './components/MainContent'
 import {Header} from './components/Header'
-import {Home} from './components/Home'
+
 
 function App() {
   return (
     <div className="app">
-        <div className="filter"></div>
         <Header />
-        <Home />
+        <MainContent />
     </div>
   )
 }

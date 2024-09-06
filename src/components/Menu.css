@@ -1,21 +1,24 @@
 .menu {
     display: flex;
+    justify-content: end;
     height: 100%;
     width: 100%;
+    overflow: hidden;
 }
 
 .itens-menu {
-    display: flex;
     justify-content: end;
     gap: 2rem;
     flex: 5;
     height: 100%;
     width: 100%;
+    transition: .5s;
 }
 
 .menu a {
     display: flex;
     align-items: center;
+
     color: white;
     text-decoration: none;
     height: 100%;
@@ -40,8 +43,31 @@
 @media screen and (max-width: 26.5625rem){
     .menu {
         flex: 3;
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 64px);
+        z-index: 2;
     }
     .menu .itens-menu{
-        display: none;
+        position: absolute;
+        opacity: 0;
+        height: 100vh;
+        background-color: rgba(200,200,200,1);
+        z-index: 1;
+        right: -100%;
+    }
+
+    .menu a {
+        height: 0;
+        color: red;
+    }
+
+    .menu a:hover {
+        background-color: red;
+        color: white
+    }
+
+    .active {
+        border-bottom: 2px solid transparent !important;
     }
 }

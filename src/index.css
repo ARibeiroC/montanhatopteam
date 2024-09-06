@@ -11,8 +11,18 @@ body {
   background-size: cover;
   background-color: #050505;
   min-height: 100vh;
+  height: 100vh;
   color: #f0f0f0;
 }
 
-@media screen and (max-width: 26.5625rem){
+@media screen and (max-width: 26.5625rem) {
+  body::before {
+    content: '';
+    position: absolute;
+    width: 100Vw;
+    height: 100vh;
+    background-color: rgba(29,29,29,.8);
+    z-index: 0;
+  }
 }
+

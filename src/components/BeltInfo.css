@@ -72,6 +72,12 @@
     transform: translateY(1px);
 }
 
+.responsivity {
+    display: block;
+    font-size: .7rem;
+    width: 80px;
+}
+
 
 @media screen and (max-width: 26.5625rem) {
     .contacts {

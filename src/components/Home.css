@@ -4,9 +4,8 @@
 
   gap: 1rem;
   color: white;
-  height: 100%;
   width: 100%;
-  z-index: 1;
+  height: 100%;
 }
 
 .text {
@@ -18,7 +17,7 @@
   height: 100%;
 
   padding: 2rem .4rem;
-  z-index: 3;
+  position: relative;
 }
 
 .text h2 {
@@ -54,7 +53,7 @@
 }
 
 .text button:active {
-  box-shadow: 2px 2px 8px 0px black;
+  box-shadow: 2px 2px 8px 0px black inset;
   transform: translateY(1px);
 }
 

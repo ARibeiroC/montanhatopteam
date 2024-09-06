@@ -7,11 +7,12 @@
     height: 100%;
     width: 100%;
     background-color: #010101;
+    border: 1px solid white;
   }
   
   #about h2 {
     font-size: 5rem;
-    margin: 10% 0;
+    /* margin: 10% 0; */
   }
   
   #about h2 #brazilian-text {

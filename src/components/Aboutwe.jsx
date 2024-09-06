@@ -1,7 +1,7 @@
 import React from 'react'
 import './Aboutwe.css'
 
-function About() {
+function Aboutwe() {
   return (
     <div className="main-container">
         <section id='about'>
@@ -12,4 +12,4 @@ function About() {
   )
 }
 
-export {About}
+export {Aboutwe}
