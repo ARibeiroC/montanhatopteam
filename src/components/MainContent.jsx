@@ -1,12 +1,12 @@
 import { Home } from "./Home"
-import { Aboutwe } from './Aboutwe'
+import { About } from './About'
 import './MainContent.css'
 
 function MainContent(){
     return (
         <div className="content-pages">
             <Home />
-            <Aboutwe />
+            <About />
         </div>
     )
 }
